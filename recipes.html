@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhookkad</title>
+    <style>
+
+
+       /* .header {
+            height: 60px;
+        }*/ 
+        /* for styling navigation baar
+        form HERE*/
+       * { margin: 0;
+           padding: 0;
+           font-family:Verdana;
+           
+        
+       }
+       body{
+        background-color:black;
+       }
+        
+        #navigation {
+            position: absolute;
+             margin: 0px;
+             width: 100%;
+             height: 100vh;
+            /* background-image: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+             background-size: cover;
+             */
+             
+
+        }
+        .nav1{
+            
+            width: 100%;
+            height: 80px;
+          /*  background: ; */
+            line-height: 70px;
+        }
+            
+
+        .nav1 .ul1{
+            float: left;
+            margin-left: 30px;
+        }
+        .nav1 .ul1 li {
+            text-align: center;
+            margin-top: 5px;
+            border: solid 2px white;
+            border-radius: 24px;
+            list-style-type:none;
+            display: inline-block;
+            transition: 0.8s all;
+            height: 60px ;
+        } 
+        .nav1 .ul1 li:hover{
+            background-color: orange;
+            color: black;
+            border-color: black;
+        }
+        .nav1 .ul1 li a {
+
+            text-decoration: none;
+            color:orange;
+            padding: 30px;
+        }
+        .nav1 .ul1 li a:hover{
+            color: black;
+        }
+
+       /* .current{
+            background-color: orange;
+            border: solid 2px white;
+            border-radius: 24px;
+            color: black;
+        
+
+        }
+
+        
+        /*to HERE*-----------------------------------------------------------------------------/
+
+
+        /* styling 2nd vavigation*/
+        .navigation2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar2 {
+    top: 88px;
+    margin-top: 0%;
+    position: absolute;
+    display: inline-block;
+    
+
+}
+.nav2{
+            
+            width: 100%;
+            height: 80px;
+          /*  background: ; */
+            line-height: 72px;
+}
+           
+            
+
+        .nav2 .ul2{
+            align-content: center;
+            width: 206%;
+            float: left;
+            margin-left: 0px;
+            background-color: orange;
+         
+        }
+        .nav2 .ul2 li {
+            position: relative;
+            align-content: center;
+            text-align:center;
+            margin-left: 0px ;
+            margin-top: 12px;
+            border: solid 2px white;
+            border-radius: 24px;
+            list-style-type:none;
+            display: inline-block;
+            transition: 0.8s all;
+            height: 60px;
+            
+        } 
+        .nav2 .ul2 li:hover{
+            background-color: gray;
+            color: black;
+            border-color: black;
+        }
+        .nav2 .ul2 li a {
+            position: relative;
+            align-content: center;
+            text-align: center;
+
+            text-decoration: none;
+            color:white;
+            padding: 30px;
+        }
+        .nav2 .ul2 li a:hover{
+            color: black;
+        }
+
+
+
+
+
+        .dropbtn {
+            position:relative;
+            align-content: center;
+            margin-bottom: 0px;
+            background-color:orange ;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: solid 2px white   ;
+            cursor: pointer;
+            border-radius: 24px;
+            height: 68px;
+}
+.dropbtn:hover{
+    background-color: gray;
+    border: solid black 2px;
+    transition: 0.8s;
+}
+
+.dropdown {
+    top: -5px;
+  position: relative;
+  display: inline-block;
+  background-color: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: gray   }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:none;
+}
+/* TO HERE ---------------------------------------------------------------------------------------------*/
+/*styling content area*/
+
+.imgmaharashtra{
+    
+    top: 50%;
+    margin-top: 0px;
+
+
+
+}
+
+
+.recipecontent {
+    position:absolute;
+    top: 300px;
+
+    
+}
+h1{
+    border-bottom: solid white 2px;
+    color: orange;
+    margin-left: 30px;
+}
+h3{
+    color: white;
+    margin-left: 20px;
+}
+p{text-align:left;
+    color: white;
+    margin-left: 100px;
+    padding: 24px;
+}
+img{
+    padding: 2px;
+    border:solid white 2px;
+    margin-left: 100px;
+}
+.printbtn {
+    font-size: 18px;
+    padding: 4px;
+    background-color:orange;
+    color:black;
+    border: solid white 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-left: 50%;
+    margin-bottom: 40px;
+    height: 50px;
+    transition: 0.8s;
+}
+.printbtn:hover{
+    background-color: black;
+    color: white;
+    border-color: orange;
+}
+
+.dishdetail{
+    color: white;
+    margin-left: 60px;
+}
+details > summary{
+    padding: 1rem;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+/*details > summary::-webkit-details-marker {
+
+}*/
+
+.footer {
+    position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+            background: grey;
+}
+
+
+
+
+        </style>
+
+<body>
+    
+       <div class="bgimg">   
+           <div class="header">
+               
+           </div>
+           <!--navigation baar-->
+       <div  id="navigation" class="navigation">
+        <nav  class="nav1">
+            <ul class="ul1">
+         <li>   <a href="index.html">Home</a>  </li>
+         <li>  <a class="current" href="#recipes">Recipes</a> </li>
+         <li>   <a href="contact.html">Contact</a>  </li>
+         <li>   <a href="about.html">About Us</a>  </li>   
+            </ul>
+        </nav>
+
+
+        </div>
+    </div>
+
+
+        <div class="navbar2">
+            
+            <div  id="navigation2" class="navigation2">
+                <nav class="nav2" >
+                    <ul class="ul2">
+                 <li>   <a  class="current" href="#home">Vegetarian</a>  </li>
+                 <li>   <a href="#" >Non-Veg</a> </li>
+                 <li>   <a href="#">Snacks</a>    </li> 
+                 <li>   <a href="#healthy">Healthy</a>  </li>
+                    <div class="dropdown">
+                    <button class="dropbtn">State-wise Cuisine</button>
+                    <div class="dropdown-content">
+                    <a href="#rajasthani">Rajasthani</a>
+                    <a href="#maharashtrian">Maharashtrian</a>
+                    <a href="#southindian">South Indian</a>
+                    <a href="#kashmiri"> Kashmiri</a>
+                    <a href="#bengali">Bengali</a>
+                    </div>
+                  </div>
+                    
+                    </ul>
+                </nav>
+              
+        
+            
+                    
+            
+            </div>
+        
+        </div>
+       <!-- <div class="content" style="color:white;">
+            <div class="imgmaharashtra">
+                <a href="maharashtrianfood.html" target="_blank">
+                    <img src="https://image.shutterstock.com/image-photo/vada-pav-maharashtrian-food-600w-1295471935.jpg" alt="MAHARASHTRIAN FOODs"/>
+                </a>
+
+
+
+            </div>
+         </div>-->
+         <div class="recipecontent">
+             <!-- ------------------------------------------------maharashtrian food------------------------------------------------------------------------------------------------------------------------------>
+             <h1 class="mfheading" id="maharashtrian">MAHARASHTRIAN FOODS</h1><br>
+
+             <details class="dishdetail">             
+             <summary class="dishhead">1. VADA PAV</summary><br>
+             <img src="https://image.freepik.com/free-photo/indian-famous-street-food-vada-pav_55610-2854.jpg" alt="Vada Pav" height="360" width="520">
+                  <p class="para">
+                    How to prepare Green chutney: <br><br>
+                    Combine 1 cup coriander leaves, 2 green chilies, 2 drops lemon juice, 2 garlic cloves and salt as per taste and grind all together add little water if required.<br>
+                    <br>
+                    How to prepare tamarind Chutney: <br><br>
+                    Soak tamarind for 20 minutes and squeeze the pulp from it. <br>
+                    Heat oil, add cumin seeds once it crackles, add ginger powder, red chili powder and asafoetida. <br>
+                    Add tamarind pulp and let it cook for 2-3 minutes.<br><br>
+                     
+                    Method: <br>
+                    Boil 2 medium sized potatoes. Peel them and then smash them in a bowl.<br>
+                    Heat 2 tsp oil in a small pan add mustard seeds and wait till they crackle, then add curry leaves, asafoetida. Urad dal,  sauté for a minute and then add garlic cloves, green chili crushed and turmeric powder. <br>
+                    Pour this tempered mixture on mashed potatoes. Add Salt.<br>
+                    Mix well and then make small sized balls from the mixture.<br>
+                    In another mixing bowl combine chickpea flour, turmeric powder, salt, water and finally baking soda, the batter should not be very thick or thin. <br>
+                    In a kadai, heat oil for deep fry vada. Once oil is hot reduce to medium.<br>
+                    Dip the vadas in the batter and coat them from all sides.<br>
+                    Drop the coated vadas into heated oil and fry till golden brown.<br><br>
+                    
+                    </p>
+                    </details>
+                    <br>
+
+                    <details class="dishdetail">
+                    <summary class="dishhead">2. Misal</summary><br>
+             <img src="https://media.istockphoto.com/photos/misal-pavindian-street-food-picture-id1222977707?k=6&m=1222977707&s=612x612&w=0&h=EyBloclv-seva6D0AH5O5fZomZbFRncWCBdo2vWxM5A=" alt="Misal" height="360" width="520">
+                  <p class="para">
+
+                    •	Prepare paste: <br><br>
+•	1.Heat oil in a pan. Add ginger paste, garlic paste and chopped onion.<br>
+•	2.Saute till the onion is transculent.<br>
+•	3.Now add chopped tomatoes and grated coconut. Mix well and saute it for few minutes.<br>
+•	4.Allow the mixture to cool then grind it into a smooth paste.<br><br>
+•	Prepare gravy/sauce ('Kat' in Marathi):<br><br>
+•	1.Heat oil in a pan. Add the ready paste into oil and saute it for about 2 minutes. <br>
+•	2.Now add salt, red chilly powder, garam masala, turmeric powder, cumin-coriander powder, clove-cinnamon powder and mix it.<br>
+•	3.Add water and cook till the mixture starts leaving oil.<br>
+•	4.Transfer it in a bowl and keep it aside.<br><br>
+•	Prepare Usal:<br><br>
+•	1.Heat oil in a pan. Add ginger paste, garlic paste and asafoetida.<br>
+•	2.Saute it for a minute and add soaked & boiled sprouts along with potatoes. Mix it well.<br>
+•	3.Now add salt, turmeric powder, garam masala, clove-cinnamon powder and lime juice.<br>
+•	4.Add water to it and cook it for about 8-10 minutes.<br>
+•	5.Transfer it in a separate bowl.<br><br>
+•	Prepare Misal:<br>
+•	1.Take a serving bowl. First pour ready usal in the bowl and then pour the red gravy over it.<br>
+•	2.Thereafter, add finely chopped onion and farsan to the mixture.<br>
+•	3.Garnish it with chopped coriander. Serve it with pav and a slice of lemon<br><br>
+
+
+                  </p>
+                  </details>
+                  <br>
+
+                  <details class="dishdetail">
+                  <summary class="dishhead">3. Pav Bhaji</summary><br>
+             <img src="https://media.istockphoto.com/photos/closeup-image-of-traditional-indian-mumbai-food-pav-bhaji-dish-served-picture-id1250269160?k=6&m=1250269160&s=612x612&w=0&h=AESfLB6VpWEewbG6ELuDve7Nv0fr6I3nZ7vhaZipS7s=" alt="Pav Bhaji" height="360" width="520">
+                  <p class="para">
+
+                    •Prepare Bhaji: <br> <br>
+                    •	1.Heat oil in a pan. Add cubes of butter along with onion <br>
+•	2.Saute till golden brown and then add ginger garlic paste. Mix well. <br>
+•	3.Now add chopped lauki along with coriander and mix well, followed by a cup of chopped potatoes. Mix and mash well together.<br> 
+•	4.Add chopped beetroot, salt, chilli powder and pav bhaji masala to the mashed mixture. Mix well. <br>
+•	5.Now add the tomato puree. <br>
+•	6.Mix the tomato puree thoroughly and then add butter followed by coriander leaves to the cooked bhaaji. Mix thoroughly.<br><br> 
+•	Prepare Pav:<br><br>
+•	1.Spread some butter all over the pav.<br> 
+•	2.Sprinkle pav bhaji masala over it. <br>
+•	3.Toast it on the pan for a while till it becomes golden brown.<br> 
+•	4.Serve hot along with a lemon wedge, chopped onion and green chilli.<br><br> 
+
+
+                  </p>
+                  </details>
+                  <br>
+
+                  <details class="dishdetail">
+                  <summary class="dishhead">4. Modak</summary><br>
+             <img src="https://t3.ftcdn.net/jpg/01/61/98/10/360_F_161981034_vcFKzJRG34Yjeg7C2C87GukACeisOzQA.jpg" alt="Modak" height="360" width="520">
+                  <p class="para">
+
+                    •	1.Boil water, add a pinch of salt along with a teaspoon of ghee, saffron, and pour the rice flour. <br>
+•	2.Cover with the damp cloth and keep aside for 10 minutes.<br>
+•	3.In a pan, add ghee then add grated coconut and jaggery (for stuffing).<br>
+•	4.Mix everything well. Finally add cardamom powder, roasted cashewnuts and raisins.<br>
+•	5.Take dough, wet hands with water and oil to knead into a soft dough.<br>
+•	6.Now start to put ball into small bowl size shape, stuff the filling and start to make plates around stuffing.<br>
+•	7.Gather all plates at the center of stuffing and seal edges.<br>
+•	8.Keep the modaks covered with the wet cloth as they can dry out.<br>
+•	9.Heat up 1 inch of water in idly cooker and place a banana leaf, put modaks on top of it.<br>
+•	10.Steam for 10 minutes over medium heat.<br>
+•	11.Modaks are ready to be served.<br><br>
+
+
+                  </p>
+                  </details>
+                  <br>
+
+                  <details class="dishdetail">
+                  <summary class="dishhead">5. Bhelpuri</summary><br>
+             <img src="http://www.fussfreecooking.com/wp-content/uploads/2013/07/a61.jpg" alt="Bhelpuri" height="360" width="520">
+                  <p class="para">
+
+                    •	1.Put the puffed rice in a bowl; add onions, sprouts, green chillies, coriander leaves, tamarind pulp, mint chutney, chaat masala or aamchur. Mix it well. <br>
+•	2.Garnish with sev and coriander leaves. Serve. <br> <br>
+
+
+
+
+                  </p>
+                  </details>
+                  <br>
+
+                  <button class="printbtn" onclick="window.print()">Print Recipes</button>
+
+<!--------------------------------------------------rajasthani food-------------------------------------------------------------------------------------------------------------------------------------->
+                  <h1 class="rjheading" id="rajasthani">RAJASTHANI FOODS</h1><br>
+
+                  <details class="dishdetail">
+             
+             <summary class="dishhead">1. Gatte ki Sabji</summary><br>
+             <img src="https://i.pinimg.com/originals/fc/7e/cb/fc7ecb9311d2da3f44a0bd00f17a0230.png" alt="Gatte ki Sabji" height="420" width="520">
+                  <p class="para">
+                    Gatte Ki Sabzi is a delicious Rajasthani curry prepared with gram flour (besan) as the base ingredient. ‘Gatte’ refers to cooked and spiced gram flour dumplings, which are then dunked into spicy curd gravy.<br>
+                    Rajasthan is an Indian state with large stretches of desert. The scarcity of vegetables gave rise to more reliance on dishes made from pluses, milk and other non perishable food items.<br>
+                    Gatte ki sabzi can be served with roti, paratha or naan and can also be had with plain steamed rice. It also forms an essential part of Rajasthani thali along with other Rajasthani specialties like Panchmel Dal, Baati and Churma<br><br>
+                    INGREDIENTS:- <br> <br>
+  
+ For Making Gatte-<br>
+1 Cup Besan/Chickpea Flour<br>
+3 tbsp Yogurt/Curd<br>
+1 tbsp Cream<br>
+1/4 tsp Ajwain/Caraway Seeds<br>
+1/2 tsp Turmeric Powder<br>
+1/2 tsp Red Chilli Powder<br>
+1/2 tsp Coriander Powder<br>
+1/4 tsp Baking Soda<br>
+1 tsp Salt or as per taste<br><br>
+To make Curry-<br>
+1 Cup Yogurt<br>
+2 tbsp Besan/Chickpea Flour<br>
+1 tsp Ginger and green Chilli Paste<br>
+1/2 tsp Cumin Seeds/Jeera<br>
+3-4 Cloves<br>
+1 Bay Leaf<br>
+1 Small Cinnamon Stick<br>
+1 Black Cardamom<br>
+3 tbsp Oil<br>
+Salt to taste<br><br>
+
+INSTRUCTIONS-<br><br>
+ 
+To Make Gatte<br><br>
+Mix all the ingredients and make a soft dough. Add more yogurt/cream if you you feel the dough is not soft. Do not add water.<br>
+Lightly oil the palms and roll out the dough in the form of cylinders as shown in the pic below.<br>
+Boil 4-5 cups of water in a pan, when the water comes to roaring boil, add gatte to it.<br>
+Boil for 10-15 minutes in it. Let it cool and cut into 1/2" pieces. <br>
+In a pan take oil, when the oil is hot enough, fry gatte till light brown, take out and keep aside. this step is optional and you can add gatte direclty to curry.<br><br>
+To make Curry/Gravy<br><br>
+Mix together yogurt, besan, add around 1 cup water, slowly mixing the flour. Take care no lumps are formed. If you get lumps, seice the mixture.<br>
+Heat oil in a pan/kadhai. Add cumin seeds. When the seeds crackle, add the whole spices and fry for few seconds.<br>
+Add the yogurt mixture and keep on stirring it till it boils.<br>
+Cook it for few minutes. Add gatte and cook for another few minutes. Add water to adjust the consistency. Do nit boil gatte for too long as thesewill become hard.<br>
+Garnish with finely chopped fresh coriander leaves and serve hot with chapatis/paranthas or jeera rice.<br><br>
+NOTES<br>
+To make with onions and gralic, make paste of 1/2 onion, 2-3 garlic cloves, small ginger piece and green chillies and saute till light brownafter adding whole spices.<br><br>
+
+</p>
+</details>
+<br>
+
+
+                  <details class="dishdetail">
+
+                  <summary class="dishhead">2. Churma</summary><br>
+             <img src="https://i0.wp.com/vegecravings.com/wp-content/uploads/2016/03/churma-step-by-step-recipe.jpg?fit=3527%2C3024&quality=65&strip=all&ssl=1" alt="Churma" height="420" width="520">
+                  <p class="para"> 
+                    Churma  is a Rajasthani delicacy made from ground deep fried wheat flour dumplings mixed with sugar. Churma is popularly enjoyed with a traditional Rajasthani meal of Dal & Baati and provides great contrast with its sweet flavor to the whole <br>
+                    It is a sweet dish made by coarsely grinding deep fried whole wheat flour dumplings along with sugar. It has a slightly coarse texture and emits the mouthwatering aroma of whole wheat flour roasted in desi ghee.<br>
+                    Churma can be made very quickly and in any household given that it is made from whole wheat flour and doesn’t need any other special ingredients. Optionally, dry fruits like almonds and cashews can also be added to enhance the flavor of this dish.<br>
+                    You will find churma in the menu of many restaurants in Rajasthan separately, or as part of dal, bati meal. It is a quintessential part of a Rajasthani thali and any trip to Rajasthan is not complete without getting a taste of this dish.<br><br>
+
+                    INGREDIENTS:- <br><br>
+  
+1 Cup Whole Wheat Flour/Atta<br>
+¼ Cup Semolina/Sooji<br>
+4+2 tbsp Ghee for kneading flour<br>
+½ Cup Fine or Powdered Sugar use as required<br>
+¼-½ tsp Cardamom Powder<br>
+1/2 Cup Mixed Nuts like Almonds, Cashew Nuts,Raisins<br>
+½ Cup Warm Milk/Water<br>
+Dried Rose Petals for additional rose flavour optional and as required<br><br>
+INSTRUCTIONS-<br>
+ 
+Mix whole wheat flour/atta, semolina/sooji and ghee. Make a stiff dough using warm water or milk.<br>
+Keep covered for atleast 15 minutes.<br>
+Meanwhile preheat oven at 400°F or 200°C<br>
+Make the dough balls with a slight indent in between.<br>
+Bake at 400F for 15-20 minutes.<br>
+Once baked ansd brown, let it cool a bit.<br>
+Crush baatis and mix with sugar,cardamom powder, chopped nuts and raisins and 2-3 tbsp of ghee.<br>
+You can also add dried rose petals and essence for flavour.<br>
+Kepp in an air-tight container, add warm ghee while serving.<br><br>
+To fry Baatis for Churma-<br>
+In a heavy bottomed pan or kadhai, add ghee, and fry baatis whn ghee is warm enough. Drop a tiny piece of dough in ghee, it should rise slowly. Frying baatis in very hot oil, will keep these raw from inside.<br>
+Fry till baatis are light brown in color. Crush when cool or slight warm and mix with nuts and ghee.<br><br>
+                    
+                  </p>
+                  </details>
+                  
+                  <br>
+
+
+                  <details class="dishdetail">
+
+                  <summary class="dishhead">3. Besan Mirchi</summary><br>
+             <img src="https://werecipes.com/app/uploads/2015/10/bharwan-mirch-recipe-besan-bharwa-mirchi-1280x720.jpg" alt="Besan Mirchi" height="420" width="520">
+                  <p class="para">
+                    Besan Mirchi  is a Rajasthani speciality made by sautéing green chilies in a spiced besan (Gram Flour) mixture. When cooked in this way, the green chilies loose some of their bite and get imbibed with other tangy and spicy <br>
+                    Besan Ki Mirchi is mouthwateringly appetizing and greatly enhances the flavor of food. Roasted besan along with spices give this dish a very unique texture & flavor.<br>
+                    Besan Mirchi is really easy to make and it does not take more than 15 minutes to prepare. It stores well in the refrigerator, so you can make it once and enjoy it for 5-6 days.<br>
+                    Besan Ki Mirchi can be used as an accompaniment or as a pickle with any main dish combination like roti-sabzi or dal-chawal.<br><br>
+
+                    Ingredients For Besan Mirch Recipe:- <br>
+10-12 Green Chilies<br>
+1 Cup Besan (Gram Flour or Chickpea Flour)<br>
+1 Teaspoon Rai (Black Mustard Seeds)<br>
+1 Teaspoon Jeera (Cumin Seeds)<br>
+1 Teaspoon Saunf (Fennel Seeds)<br>
+1/4 Teaspoon Haldi (Turmeric Powder)<br>
+1/2 Teaspoon Amchur (Dried Mango Powder)<br>
+1/2 Teaspoon Saltv
+1 Tablespoon Oil<br><br>
+
+ 
+Step By Step Instructions for Besan Mirch Recipe-<br>
+Wash and dice 10-12 medium sized green chilies into big circular pieces. I prefer using the less spicy variety of Green Chilies for this recipe.<br><br>
+
+Besan Ki Mirchi Recipe Instructions-<br>
+Roast 1 cup besan/ gram flour in a pan or in microwave for a few minutes. Stir occasionally till it turns light golden brown in color.<br>
+
+ 
+Heat oil in a pan, and add 1 teaspoon Rai/ Mustard Seeds and let them crackle. Then roast 1 teaspoon Jeera (Cumin Seeds). Add 1/4 teaspoon Haldi (Turmeric Powder), 1 teaspoon Saunf (Fennel Seeds), 1/2 teaspoon Amchur (Dry Mango Powder) and 1/2 teaspoon Salt. Finally add in the besan and diced Green Chillies.<br>
+Saute the green chilies in the mixture for 2-3 minutes till they are cooked. Besan Ki Mirchi is ready. You can store this in the refrigerator for 5-6 days and enjoy it on the side of any meal of roti/paratha or rice.<br>
+
+
+                    
+                  </p>
+                  </details><br>
+
+                  <details class="dishdetail">
+
+
+
+                  <summary class="dishhead">4. Masala Baati</summary><br>
+             <img src="http://theveggieindian.com/wp-content/uploads/2015/07/masala-bati-10-recipe.jpg" alt="Masala Baati" height="520" width="420">
+                  <p class="para">
+                    Masala baati   is a traditional bread from Rajasthan which is made by stuffing dough with a spicy mixture of potatoes and peas, which is then deep fried or baked. <br>
+                    It is is quite popular in Rajasthan and adjoining areas of western India like states of Madhya Pradesh and Gujarat. Masala Bati is a dish enjoyed by all and is often made for gatherings like group outings, festivities, wedding ceremonies, birthday parties etc.<br><br>
+                    What is bati?<br>
+                    Plain baati is a hard, round bread prepared by baking or deep frying flour dumplings, sometimes mixed with coarsely ground spices. The stuffed version of bati has a spicy potato filling and also goes by the name of ‘bharwa masala baati’.<br><br>
+                    What is bati eaten with?<br>
+                    Masala bati is generally eaten hot with desi ghee, panchmel dal, garlic chutney and accompanied by churma for dessert as part of the traditional Rajasthani meal of ‘dal bati churma’.<br>
+                    When prepared for special occasions, the meal also consists of gatte ki sabzi, kadhi, bajra khichdi, pulao, fruit cream and masala chaas.<br><br>
+
+
+                    Ingredients For Masala Bati Recipe:- <br><br>
+For the stuffing-<br>
+3 Large Boiled Potatoes<br>
+1/4 Cup Boiled Green Peas<br>
+3-4 Cloves of Garlic<br>
+~1 inch piece of Ginger<br>
+1-2 Green Chillies<br>
+1/4 Cup Coriander Leaves<br>
+1 Teaspoon Cumin Seeds (Jeera)<br>
+1/4 Teaspoon Asafoetida (Heeng)<br>
+1 Teaspoon Fennel Seeds (Saunf)<br>
+1/2 Teaspoon Turmeric Powder (Haldi)<br>
+1 Teaspoon Red Chilli Powder<br>
+1/2 Teaspoon Garam Masala<br>
+1 Teaspoon Coriander Powder (Dhania)<br>
+1 Teaspoon Dry Mango Powder (Amchur)<br>
+1 Teaspoon Salt<br>
+1 Tablespoon Oil<br><br>
+For the bati dough- <br>
+2 Cups Whole Wheat Flour<br>
+1 Teaspoon Salt<br>
+3 Tablespoons Desi Ghee (Clarified Butter)<br><br>
+
+ 
+Step By Step Instructions for Masala Bati Recipe- <br><br>
+Preparing the stuffing<br>
+Heat oil in a pan and add cumin seeds (jeera) to it.<br><br>
+
+Masala Bati Recipe Step By Step Instructions:- <br><br>
+ 1.<br>
+When the cumin seeds start to splutter, add minced ginger, garlic and finely chopped green chillies. Fry them for a few seconds.<br><br>
+
+ 2.<br>
+
+ 
+Add boiled green peas to the pan.<br><br>
+
+ 3.<br>
+Then add fennel seeds (saunf), turmeric powder (haldi), red chilli powder, garam masala, coriander powder (dhania), dry mango powder (amchur) and salt. Sauté the spices for 3-4 minutes.<br><br>
+
+ 4.<br>
+Add coarsely mashed boiled potatoes to the pan.<br><br>
+
+ 5.<br>
+
+ 
+Mix the potatoes with the spices and add some chopped coriander leaves.<br><br>
+
+ 6.<br>
+The stuffing for bati is ready. Mix the coriander leaves and set it aside.<br><br>
+
+ 7.<br>
+Preparing the bati<br>
+Add whole wheat flour to a large mixing bowl along with some salt.<br><br>
+
+ 8.<br>
+
+ 
+Then add 1 tablespoon molten ghee.<br><br>
+
+ 9.<br>
+Rub the flour with the ghee to coat it completely. This is also called adding moyen.<br><br>
+
+ 10.<br>
+Add around 1/3 cup of water in small increments.<br><br>
+
+ 11.<br>
+
+ 
+Knead the flour to make a stiff dough.<br><br>
+
+ 12.<br>
+Divide the dough into small pieces and roll them into lemon sized balls.<br><br>
+
+ 13.<br>
+Gently press the balls with your hand to flatten them out in the shape of a small bowl.<br><br>
+
+ 14.<br>
+
+ 
+Place a spoonful of the potato stuffing prepared earlier in the center of the dough.<br><br>
+
+ 15.<br>
+Start gathering up the sides of the dough in the center and pinch it together at the top to close the gap.<br><br>
+
+ 16.<br>
+Gently roll it around between your palms to give it a round shape.<br><br>
+
+ 17.<br>
+
+ 
+Prepare all the batis this way.<br><br>
+
+ 18.<br>
+Bake the the batis in a preheated oven and bake them at 180 C or 350 F. Take them out halfway through baking and turn them around.<br><br>
+
+ 19.<br>
+Brush ghee on the batis before placing them back in the oven.<br><br>
+
+ 20.<br>
+Bake for a total of around 40 minutes till the batis become hard. You can also fry the batis in ghee instead of baking.<br><br>
+
+ 21.<br>
+Brush some more ghee on the batis and serve them hot along with dal and chutney.<br><br>
+                    
+
+                  </p>
+                  </details>
+                  <br>
+
+
+                  <details class="dishdetail">
+
+
+                  <summary class="dishhead">5. Panch Mel Daal</summary><br>
+             <img src="https://www.yummyoyummy.com/wp-content/uploads/2020/02/dal.jpg" alt="Panch Mel Daal" height="420" width="620">
+                  <p class="para">
+
+                    Panchmel dal also known as Pancharatan Dal is a lentil stew made my mixing together five different types of lentils along with a spicy tempering. <br>
+This wholesome dal dish stands out in aroma and taste owing to combined flavor of different Dals (lentils) cooked together along with Indian spices.<br><br>
+Panchmel dal is a traditional Rajasthani dish which accompanies Bati and Churma and together the combination goes by the name ‘Dal Bati Churma’. <br>
+A mix of five lentils<br><br>
+‘Panch’ in Hindi means five. The name derives from the use of 5 different types of lentils in this dal. The choice of lentils for this dal can vary slightly. These are ones most commonly used:<br>
+	Dhuli Moong dal – split & skinned yellow lentil<br>
+	Toor Dal (Arhar) – split pigeon peas, yellow in colour<br>
+	Chana Dal – spilt and skinned black chick peas<br>
+	Dhuli Urad Dal – split and husked black grams<br>
+	Masoor Dal – split and skinned red lentil<br><br>
+
+INGREDIENTS:- <br><br>
+1/4 cup Toor Dal Tata I - Shakti<br>
+1/4 cup Chana Dal Tata I - Shakti<br>
+1/4 cup Moong Tata I - Shakti split Green<br>
+1/4 cup dal Tata I - Shakti split udad<br>
+1/4 cup Masoor Dal Tata I - Shakti<br>
+4 cups water<br>
+1 tsp salt<br>
+1/2 tsp turmeric powder<br>
+2 tbsps ghee oil or<br>
+pinch asafoetida<br>
+1 tsp cumin seeds<br>
+4 - 5 cloves<br>
+2 cinnamon small pieces of sticks<br>
+1.5 tsps  panchphoron<br>
+4 green chillies<br>
+1 inch ginger piece of<br>
+3 tomatoes large , finely chopped<br>
+2 tsps coriander powder (dhania powder)<br>
+1 tsp cumin powder (jeera powder)<br>
+1 - 2 tsps red chilli powder<br>
+to taste salt<br>
+handful coriander finely chopped<br><br>
+For tempering:<br>
+2 tbsps mustard oil ghee rice bran OR OR oil<br>
+pinch asafoetida<br>
+3 - 4 chillies dried red<br>
+1 tsp panch phoron<br><br>
+INSTRUCTIONS- <br><br>
+Preparation<br>
+Measure out all the dals and wash and soak in plenty of water for one hour.<br><br>
+Directions<br>
+Drain the soaked dal. Place in pressure cooker with 4 cups water, turmeric and salt.<br>
+After one whistle, keep flame on minimum for 7-8 minutes. Switch off and allow to cool.<br>
+Meanwhile, heat 2 tbsp oil in a deep kadai.<br>
+Add asafoetida, cumin seeds, cinnamon and cloves. Once cumin seeds splutter, add 1.5 tsp of panch phoron. Stir for 10-20 seconds until the spices turn aromatic.<br>
+Add the ginger-green chilli paste and saute for 30 seconds.<br>
+Add chopped tomatoes, pinch of salt, stir on high flame for 1 minute.<br>
+Keep covered on low flame for 3-5 minutes until completely mushy.<br>
+Add spice powders - cumin powder, coriander powder, chilli powder and saute on low flame until the oil separates out.<br>
+Add the cooked dal to this, adding some water if required, salt to taste and finely chopped coriander. Bring to a simmer.<br>
+Add garam masala powder at the final stage, stir and remove into a serving bowl.<br>
+For the tempering, heat mustard oil / ghee / rice bran oil in a small tempering ladle. Add the asafoetida, dried red chillies, panch phoron and transfer over the dal.<br>
+Garnish with few coriander leaves.<br>
+Serve hot with steamed rice, rotis or as a part of Rajasthani dal-baati-choorma. <br><br>
+
+                  </p>
+                  
+                  </details>
+                  <br>
+
+                  <details class="dishdetail">
+                  <summary class="dishhead">6. Ker Sangari Achaar</summary><br>
+             <img src="https://4.imimg.com/data4/XV/IA/ANDROID-43150736/product-500x500.jpeg" alt="Ker Sangari Achaar" height="420" width="520">
+                  <p class="para">
+
+                    Kher Sangri Achaar is a very unique and popular pickle from Rajasthani cuisine. It is a flavorful dry mix of Ker and Sangri pickled in Indian spices. <br>
+Ker is a small sour shrub berry having appearance of small balls. And Sangri are long green beans which resembles a thin stick and are pods of the Khejri tree. These unique varieties of berries and beans grow only in arid deserts of Rajasthan.<br><br>
+
+Ingredients For Ker Sangri Achar Recipe:- <br>
+200 gm Dry Ker<br>
+200 gm Dry Sangri <br>
+3 Cups Buttermilk (Chaas) <br>
+2 Tablespoons Powdered Rai (Black Mustard Seeds) <br>
+1 Teaspoon Dana Methi (Whole Fenugreek Seeds)<br>
+2 Teaspoon Split Yellow Mustard (Sarson ke Beej)<br>
+3 Teaspoons Saunf (Fennel Seeds)<br>
+1 Teaspoon Kalonji (Nigella Seeds)<br>
+2 Teaspoons Amchur (Dry Mango Powder)<br>
+1/2 Teaspoon Heeng (Asafoetida)<br>
+1 Teaspoon Haldi (Turmeric Powder)<br>
+2 Teaspoons Lal Mirch (Red Chilli Powder)<br>
+3 Teaspoons Salt<br>
+1/2 Cup Mustard Oil<br><br>
+Step By Step Instructions for Ker Sangri Achar Recipe- <br><br>
+Wash Ker and soak it in Buttermilk for 3 days at room temperature. This helps to remove the bitterness of Ker. You can also use beaten curd mixed with 1 Cup of Water and 2 teaspoons of Salt instead of Buttermilk.<br>
+
+Soak Sangri separately in water overnight starting on the 2nd night.<br>
+
+To process the Ker, drain the buttermilk or curd mixture and wash the Ker 5-6 times with water.<br>
+
+Then add Ker to boiling water and boil for 2 minutes. Then cover with a lid and let it blanch for 5 minutes.<br>
+
+Drain the water from Sangri as well, and boil it separately in new water for 2 minutes. Again leave it covered with a lid for 5 minutes.<br>
+
+Drain the water from both Ker & Sangri. Spread them out on a clean cloth or paper and let them dry completely.<br>
+
+Heat 3 Tablespoons Mustard Oil in a pan and fry the Ker & Sangri in it.<br>
+
+Let the mixture cool down completely.<br>
+
+Now grind the whole spices i.e. Rai (Black Mustard Seeds), Dana Methi (Whole Fenugreek Seeds), Split Yellow Mustard (Sarson ke Beej), Saunf (Fennel Seeds) and Kalonji (Nigella Seeds). Add these to the Ker & Sangri.<br>
+
+Also add Amchur (Dry Mango Powder), Haldi (Turmeric Powder), Red Chilli Powder, Salt and Heeng (Asafoetida) to the mixture.<br>
+
+Mix everything well and transfer the mixture to a jar.<br>
+
+Add the remaining Mustard Oil to the jar. Make sure not to overfill, and leave some space at the top.<br>
+
+Store the pickle at room temperature. Stir with a spoon 2-3 times a day.<br>
+
+Ker Sangri achar will be ready in 8-10 days. Store it at room temperature and serve it along with any Indian meal<br><br>
+                  </p>
+                  </details>
+                  <br>
+
+
+                  <button class="printbtn" onclick="window.print()">Print Recipes</button>
+
+
+
+<!-----------------------------------------------------------------------------------south indian food------------------------------------------------------------------------------------>
+                  <h1 class="siheading" id="southindian">SOUTH INDIAN FOODS</h1><br>
+
+                  <details class="dishdetail">
+
+                  <summary class="dishhead">1. Hyderabadi Biryani</summary><br>
+                  <img src="https://www.awesomecuisine.com/wp-content/uploads/2007/10/Chicken-Biryani_resized.jpg" alt="Hyderabadi Biryani" height="420" width="620">
+                       <p class="para">
+                        How to Make Hyderabadi Biryani:- <br><br>
+                        •	1.Clean the meat. Now in a pan add meat, salt, ginger garlic paste, red chilli powder, green chilli paste, sauteed brown onions, cardamom powder, cinnamon, cumin seeds, cloves, mace, mint leaves and lemon juice.<br>
+                        •	2.Mix all of these ingredients thoroughly together.<br>
+                        •	3.Add curd, clarified butter, semi cooked rice, saffron, water and oil. Mix it well.<br>
+                        •	4.Now apply sticky dough on the sides of the pan.<br>
+                        •	5.Cover with lid to seal it and cook for about 25 minutes.<br>
+                        •	6.Hyderabadi Biryani is ready to eat. Garnish it with boiled eggs, sliced carrots, cucumbers and serve hot.<br><br>
+                        
+                       </p>
+                       </details>
+                       <br>
+
+
+
+                       <details class="dishdetail">
+                       <summary class="dishhead"> 2. Masala Dosa </summary><br>
+                  <img src="https://img-global.cpcdn.com/recipes/74ac26fbd06abd6e/751x532cq70/mysore-masala-dosa-recipe-main-photo.jpg" alt="Masala Dosa" height="420" width="520">
+                       <p class="para">
+
+                        How to Make Masala Dosa:- <br> <br>
+•	1.Wash and soak the rice in one container and the dal and fenugreek seeds together in another container for 5-6 hours or over night, depending on the weather.<br>
+•	2.Grind dal mixture together to a very smooth consistency. Next grind the rice smooth too and mix the two batters.<br>
+•	3.Add salt and enough water to make into a dropping consistency. Leave to ferment over-night or more depending on the weather, till a little spongy.<br>
+•	4.If thickened too much, add a little water to thin a bit. Heat tawa, and brush oil over it. When really hot, splash a little water over it, and immediately pour batter onto it, spreading it thin, with a circular motion.<br>
+•	5.This will have to be very swift and will need a bit of practice.<br>
+•	6.After spreading the batter, lower the heat and dribble a little oil around the edges so that it seeps under the dosa.<br>
+•	7.When edges start browning a bit, pass a flat spoon under it to ease the dosa off the pan. Put desired filling in the center, and fold the two edges over.<br>
+•	8.Serve accompanied with sambhar and chutney.<br><br>
+•	Prepare the masala filling:<br><br>
+•	1.Heat the oil in a heavy based pan and add the mustard seeds, then onions, curry leaves and green chillies, and saute over high heat till the onions are a little transparent.<br>
+•	2.Add the salt and the turmeric and mix well, before adding the potatoes.<br>
+•	3.Turn the potatoes around till well mixed, and add the water, and let it simmer, for 2-3 minutes.<br>
+
+                       </p>
+                       </details>
+                       <br>
+
+
+                       <details class="dishdetail">
+                       <summary class="dishhead">3. Uttapam</summary><br>
+                  <img src="https://www.wellthy.care/wp-content/uploads/2019/09/healthy-breakfast-indian-recipe-ragi-uttapam-696x465.jpg" alt="Uttapam" height="420" width="520">
+                       <p class="para">
+                       How to Make Uttapam:- <br>
+•	1.Soak rice, daal and methi in water for 5-6 hours.<br>
+•	2.Grind fine, add salt and enough water to make a dropping consistency and leave to ferment 5-6 hours.<br>
+•	3.Heat tawa, and brush oil over it. When really hot, splash a little water over it, and pour about 1 cup of batter on to it.<br>
+•	4.It will spread a little. When the edges start browning a bit, pour a trail of oil around it.<br>
+•	5.Turn it over and let it brown on the other side too.<br><br>
+•	Prepare onion uttapam:<br>
+•	1.Before you turn the uttapam over, sprinkle a mixture of finely chopped onions, tomatoes, coriander leaves and green chillies.<br>
+•	2.Serve hot.<br>
+                     </p>
+
+                       </details>
+                       <br>
+
+                       <details class="dishdetail">
+                       <summary class="dishhead">4.Idlis </summary><br>
+                  <img src="https://i.pinimg.com/originals/51/9b/66/519b6664d15d243a201008b7d6eb78a0.jpg" alt="Idlis" height="420" width="520">
+                       <p class="para">
+                       How to Make Idlis:- <br>
+•	1.1. Grind rice after soaking it in water for 4 hours.<br>
+•	2.2. Make this into a thick batter, adding roasted rava to the batter.<br>
+•	3.3. Add salt and the finely chopped vegetables.<br>
+•	4.4. Put into the idli mould in portions and steam for 10 minutes doing this in batches.<br>
+•	5.5. Serve hot, preferably with ghee.<br> 
+                       </p>
+
+                       </details>
+                       <br>
+
+
+                       <details class="dishdetail">
+                        <summary class="dishhead">5. Vada</summary><br>
+                   <img src="https://www.archanaskitchen.com/images/archanaskitchen/Indian_Breakfast_Tiffins/South_Indian_Medu_Vada_Sambar_with_Medu_Vada_Maker-8.jpg" alt="Vada" height="420" width="620">
+                        <p class="para">
+                            How to Make Vada :- <br>
+•	1.Soak channa dal for 3 hours and drain out the water.<br>
+•	2.Grind chilli, fennel and salt. Add the channa dal and grind coarsely.<br>
+•	3.Grease idli plates and fill the moulds with the ground mixture. Steam cook for 8 minutes. Break it into smaller pieces once it cools down.<br>
+•	4.Fry (temper) the cinnamon, cardamom, jeera, cloves and bay leaf, adding one ingredient at a time.<br>
+•	5.Add the onion and fry till the onions turn golden brown.<br>
+•	6.Add ginger garlic paste and fry for a minute in medium flame.<br>
+•	7.Add finely chopped tomatoes and the powders - red chilli powder, coriander powder and turmeric powder.<br>
+•	8.Add required salt for the gravy. Fry for a minute or until the masala blends.<br>
+•	9.Add 3 cups of water. Bring to boil and add the crumbled dal and simmer for 10 minutes.<br>
+•	10.Once the oil floats on top and the gravy becomes thicker, garnish with chopped coriander and mint leaves.<br>
+ 
+
+                        </p>
+                        </details>
+                        <br>
+
+                        <details class="dishdetail">
+                            <summary class="dishhead">6. Payasam</summary><br>
+                       <img src="https://t4.ftcdn.net/jpg/02/01/58/63/360_F_201586331_KkaHfJRx7ASrLaVyImZHLxfd46NUcltn.jpg" alt="Payasam" height="420" width="620">
+                            <p class="para">
+                                How to Make Payasam:- <br>
+•	1.Heat the ghee and fry the vermicelli until a golden brown.<br>
+•	2.Mix in the cashew nuts and the raisins.<br>
+•	3.Add milk and boil for 5 minutes.<br>
+•	4.Mix in the sugar and stir till the sugar is dissolved.<br>
+•	5.Stir in the cardamom powder and serve hot or warm.<br>
+
+                            </p>
+                            </details>
+                            <br>
+
+                            <details class="dishdetail">
+                                <summary class="dishhead">7. Chiken 65</summary><br>
+                           <img src="https://savoryandsweetfood.com/wp-content/uploads/2020/01/IMG_7628.jpg" alt="Chiken 65" height="620" width="420">
+                                <p class="para">
+                                    How to Make Chicken 65:- <br>
+•	1.Mix all the ingredients namely chili powder, turmeric, ginger garlic paste, lemon juice and beaten egg with rice flour & corn flour.<br>
+•	2.This will give you your marinade.<br>
+•	3.Smear the marination on the chicken pieces and leave it for about 30 minutes.<br>
+•	4.Fry the chicken in hot oil.<br>
+•	5.Serve with raw onion and lemon wedges.<br>
+
+                                </p>
+                                </details>
+                                <br>
+
+                                <button class="printbtn" onclick="window.print()">Print Recipes</button>
+
+
+
+<!---------------------------------------------------------------------kashmiri food------------------------------------------------------------------------------------------------------------------------------->
+
+                    
+                                <h1 class="kheading" id="kashmiri">KASHMIRI FOODS</h1><br>
+
+                                <details class="dishdetail">
+                           
+                           <summary class="dishhead">1. Rogan Josh</summary><br>
+                           <img src="https://img-global.cpcdn.com/recipes/eb3dbb56fc5f570f/751x532cq70/mutton-rogan-josh-recipe-main-photo.jpg" alt="Rogan Josh" height="420" width="520">
+                                <p class="para">
+                                    How to Make Kashmiri Rogan Josh:- <br>
+•	1.Clean praan, slice and fry them.<br>
+•	2.When cold, grind them to a fine paste.<br>
+•	3.Whip the yoghurt. Boil the lamb along with the turmeric, ginger garlic paste, cardamom and bayleaf.<br>
+•	4.Separate cooked lamb from stock.<br>
+•	5.Soak the Mawal flowers in water for colour.<br>
+•	6.Heat ghee and add the onion paste and saute for 3 minutes.<br>
+•	7.Add the stock along with all the other ingredients except the meat.<br>
+•	8.On a high flame boil for 20 minutes to get a creamy gravy. Add the meat and the extract of Mawal flowers. Cook for another 5 minutes and serve hot.<br>
+
+                                </p> 
+                                </details>
+                                <br>
+
+
+                                <details class="dishdetail">
+                           
+                                    <summary class="dishhead">2. Kashmiri Sweet Pulao</summary><br>
+                                    <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Farrukh_Aziz_Ansari/Kashmiri_Pulao.jpg" alt="Kashmiri Sweet Pulao" height="420" width="620">
+                                         <p class="para">
+                                            How to make Kashmiri Style Modur Pulao Recipe - Kashmiri Sweet Pulao:- <br>
+1.	To begin making the Modur Pulao Recipe, wash rice thoroughly with water and soak for half an hour. Drain the water and set aside.<br>
+2.	In a small bowl, soak saffron with a tablespoon of water.<br>
+3.	In a small saucepan, add 2 cups of water and bring it to boil. Add rice and cook for about 5 to 10 minutes. Ensure that the rice is only cooked 3/4th. Do not cook for long time.<br>
+4.	Drain water from the rice and set aside. <br>
+5.	In a non-stick kadai heat ghee over medium flame. Once the ghee is hot, lower the flame and add cloves, bay leaves, cinnamon stick, cardamom, and Peppercorns. <br>
+6.	Cook them until peppercorns clutter.<br>
+7.	Now, add sugar, 1/2 cup of water and cook until they dissolve completely. It should be in thick syrup consistency. Add the half cooked rice and give it a stir.<br>
+8.	Now add chopped dates, raisins, almonds and cashews to the rice. Soak dates and almonds in warm water for few minutes for chopping it without efforts.<br>
+9.	Combine them well and pour the saffron water on top of the rice.<br>
+10.	Cover the pan and cook rice over low flame for about 20 to 25 minutes until they are cooked well. Ensure to stir them occasionally to prevent it from being burnt at the bottom<br>
+11.	In case if you have added undercooked rice, add required amount of water. Ensure to check the consistency of the rice often to avoid overcooking<br>
+12.	Serve Modur Pulao warmly to satisfy your sweet tooth. Serve Modur Pulao along with Kashmiri Style Dum Aloo and Phulkas for a weekend lunch.<br>
+
+                                         </p> 
+                                         </details>
+                                         <br>
+
+                                <details class="dishdetail">
+
+                                <summary class="dishhead">3. Kashmiri Mutton Yakhni</summary><br>
+                                    <img src="https://i2.wp.com/swatisani.net/kitchen/wp-content/uploads/2015/04/IMG_8404.jpg" alt="Kashmiri Mutton Yakhni" height="420" width="520">
+                                         <p class="para">
+                                            How to ma ke Kashmiri Mutton Yakhni Recipe:- <br>
+                                            1.	To begin making the Kashmiri Mutton Yakhni Recipe wash and clean the mutton well. Soak mutton in hot water for about 10 minutes and set aside. <br>
+                                            2.	Heat milk in a bowl in the microwave for about a minute, remove from the microwave, add the saffron strands and allow it to rest and dissolve to get the color and the flavours.<br>
+                                            3.	In a pressure cooker, heat Nutralite Classic Spread on medium flame, once its hot, add the cardamom, cinnamon stick, bay leaf, dry red chillies and cloves. <br>
+                                            4.	Once they begin to sizzle, add the mutton, discarding the water and cook for a few minutes. <br>
+                                            5.	Next, to this add the whisked yogurt and mix well. Add about 1/3 cup of water and give it a good mix. <br>
+                                            6.	Now add the red chilli powder, turmeric powder, dry ginger powder, salt to taste and the saffron strand along with the milk to the Kashmiri Mutton Yakhni.<br>
+                                            7.	Close the pressure cooker and pressure cook the Kashmiri Mutton Yakhni for 3 whistles. Turn off the flame and allow the pressure to release naturally. <br>
+                                            8.	Open the cooker, check the salt and other flavours and adjust to suit your taste.<br>
+                                            9.	Transfer the Kashmiri Mutton Yakhni to a serving dish and serve hot.<br>
+                                            10.	Serve this Kashmiri Style Mutton Yakhni Recipe along with Steamed Rice and some Kashmiri Style Haak T Thool Recipe - Greens Cooked With Eggs for a simple comforting Sunday lunch.<br>
+                                            
+                                         </p> 
+                                         </details>
+                                         <br>
+
+                                <details class="dishdetail">
+                                <summary class="dishhead">4. Mutton Kofta (Turnip Curry)</summary><br>
+                                    <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/shaheen_ali/Shab_Deg__Kashmiri_Mutton_Kofta_and_Turnip_Curry.jpg" alt="Mutton Kofta and Turnip Curry" height="420" width="620">
+                                         <p class="para">
+                                            How to make Kashmiri Style Shab Deg Recipe-Mutton Kofta and Turnip Curry:- <br>
+                                            1.	To begin making the Shab Deg recipe, firstly slowly add water into the whole wheat flour and make a tight dough. This dough is to seal the vessel. Once it is ready, keep it aside.<br>
+                                            2.	Collect all the ingredients on your counter and do the preparations mentioned like, grind Almond and Poppy to make a paste and keep aside.<br>
+                                            3.	Peel and wash the turnips, cut into half or four quadrants and keep aside. Soak saffron in milk and keep in fridge to get more intense colour. <br>
+                                            4.	Take a large mixing bowl and combine all the ingredients required for making kofta and mix well to make a dough.<br>
+                                            5.	Pinch a lemon sized ball from the dough, roll it and shape into kofta and keep aside. <br>
+                                            6.	Heat ghee in a heavy bottomed vessel known as DEG and fry the turnips till they are golden in colour. Collect them and keep aside.<br>
+                                            7.	In the remaining ghee add caraways seeds, cardamom and cloves and wait till they crackle.<br>
+                                            8.	Add mutton and fry for atleast 5 minutes. Now add ginger garlic paste and saute for another couple of minutes.<br>
+                                            9.	Season it with chilli powder, coriander powder and salt. Mix well and add whisked curd/yogurt. Keep stirring till curd incorporates with the spices well.<br>
+                                            10.	Add garam masala powder and some water, give a quick stir and simmer the gas. Cover the lid and let it cook on low flame till one hour.<br>
+                                            11.	Add water (preferably warm) and fried onions. Mix and add turnips and meat balls.<br>
+                                            12.	Check salt again and adjust if needed. Cover the deg with a lid that fits well and seal the sides with dough.<br>
+                                            13.	Let the deg be on very low flame for another 2 hours. <br>
+                                            14.	Once the curry is done, break the seal carefully and open the lid.<br>
+                                            15.	Stir in the saffron milk and garnish with some finely chopped coriander or kasuri methi and drizzle some cream/malai all over.<br>
+                                            16.	Serve Shab Deg along with Jeera Rice or Naan, Boondi Raita and a plate of Onion salad.<br>
+                                            
+                                         </p> 
+                                         </details>
+                                         <br>
+
+                                         <details class="dishdetail">
+
+                                         <summary class="dishhead">5. Kashmiri Dahi Baingan</summary><br>
+                                    <img src="https://c.ndtvimg.com/2019-05/fsofjbcg_baingan_625x300_29_May_19.jpg" alt="Kashmiri Dahi Baingan" height="420" width="670">
+                                         <p class="para">
+                                            How to make Kashmiri Dahi Baingan Recipe:- <br>
+                                            1.	To begin making the Kashmiri Dahi Baingan Recipe, place the cut eggplant/ brinjal pieces in a bowl of salted water for about 10 minutes. <br>
+                                            2.	Add 1 tablespoon of mustard oil into a preheated pan. Drain the baingan from its water and add the drained baingan to the pan.<br>
+                                            3.	Sprinkle salt after adding the baingan cubes, stir well to combine. Cover and cook the brinjal until soft and roasted. Once done turn off the heat and keep aside. <br>
+                                            4.	Into a mixing bowl, add the curd, ginger powder, red chilli powder, turmeric powder, salt to taste and whisk well to make a smooth mixture.<br><br>
+                                            5.	Now we will make the Kashmiri Dahi Baingan:<br>
+                                            6.	In a kadai, heat the rest of the mustard oil on medium heat. Once the oil is hot add the coarsely pounded fennel seeds, green cardamom, asafoetida and saute for a few seconds till the aromas are released.<br> 
+                                            7.	Add the whisked curd and give it a brisk boil for 1 minute. Keep whisking to get a smooth dahi mixture. Add the roasted brinjal and boil for another 3-4 minutes and turn off the heat. <br>
+                                            8.	Check the salt and adjust according to taste and transfer the Kashmiri Dahi Baingan to a serving bowl.<br>
+                                            9.	Serve Kashmiri Dahi Baingan Recipe along with Steamed Rice or Phulka and a side of Kashmiri Style Bharit Marchavangun Recipe-Stuffed Chillies for a simple weekday meal. <br>
+                                            
+                                         </p> 
+                                         </details>
+                                         <br>
+
+                                        <!--- <details class="dishdetail">
+
+                                            <summary class="dishhead">6. Matschgand</summary><br>
+                                    <img src="https://i.pinimg.com/originals/fc/7e/cb/fc7ecb9311d2da3f44a0bd00f17a0230.png" alt="Matschgand" height="420" width="520">
+                                         <p class="para">
+                                            
+                                            Prepreparation- <br>
+                                            Pound 1/8th jeera, 1/4 bay leaf, 1 tsp saunf together and keep it aside.<br>
+                                            1.	Preparation<br>
+                                            In a bowl, add 100 gm chicken, 1/4th tsp red chilly powder, 1/4th tsp garam masala, 1/2 dhania powder, 1/8th tsp hing, 1/2 dry ginger, grounded powder, 1/8th tsp salt, 1 tsp ghee and mix it well<br>
+                                            2.	Make cylindrical shape<br>
+                                            3.	Heat oil 1 tsp, 1/8th tsp jeera, add 1/4th tsp red chilly powder, water, 1/2 tsp dhanai powder, 1/4th tsp garam masala, 1/4th tsp dry ginger, 1/8th tsp hing,1/8th tsp salt, grounded powder, 1 tsp coriander leaves, mix it well<br>
+                                            4.	Add enough water<br>
+                                            5.	cover and cook<br>
+                                            
+                                            
+                                         </p> 
+                                         </details>
+                                         <br>-->
+
+                                         <button class="printbtn" onclick="window.print()">Print Recipes</button>
+
+                                        
+
+<!---------------------------------------------------------------------------bengali foods-->
+
+
+                                         <h1 class="bheading" id="Bengali">BENGALI FOODS</h1><br>
+
+             <details class="dishdetail">             
+             <summary class="dishhead">1. Aloo Potol Posto Recipe</summary><br>
+             <img src="https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2016/sept-26/Bengali_Aloo_Potol_Posto_Recipe_Aloo_Parwal_In_Poppy_Seed_Masala-1.jpg" alt="Aloo Potol Posto Recipe" height="360" width="520">
+                  <p class="para">
+                    1.	We begin making Aloo Potol Posto Recipe (Aloo Parwal in Poppy Seed Masala Recipe) heat the pan with oil and roast by adding methi,cumin, fennel,cloves,cardamom, dry red chilli along with ginger, grated coconut and poppy seeds. Fry till the aroma comes out. <br>
+                    2.	Cool and transfer it into a blender. Blend it to a fine paste and keep it aside.<br>
+                    3.	Heat oil in a kadai and saute the parawal with turmeric powder till it turns brown and softens.Remove and keep it aside. Keep the potatoes boiled and ready as well.<br> 
+                    4.	With the leftover oil temper green chilies and add the (coconut-poppy seed) masala paste. Sprinkle the spice powders and fry till the oil comes out from the masala.<br>
+                    5.	Finally add the vegetables. Add water and cook it for some more time for about 10 minutes .<br>
+                    6.	Serve your delicious and spicy Aloo Potol Posto (Aloo Parwal in Poppy Seed Masala) with layered Lachaa Paratha.<br>
+                    
+
+                </p>
+            </details>
+            <br>
+
+
+            <details class="dishdetail">             
+                <summary class="dishhead">2. Ilish Machher Jhol (Hilsa Fish Curry)</summary><br>
+                <img src="https://img-global.cpcdn.com/recipes/337ff577ded11246/751x532cq70/ilish-macher-tel-jhaal-recipe-main-photo.jpg" alt="Ilish Machher Jhol (Hilsa Fish Curry)" height="360" width="520">
+                     <p class="para">
+                        •	1.Shallow fry the Hilsa fish pieces, till golden brown. Keep aside. <br>
+                        •	2.In a pan, heat 1 Tbsp oil, add about 1 tsp black cumin seeds and let them crackle. <br>
+                        •	3.Add about a cup of water to it, about 1/2 tsp haldi, salt to taste and let the water come to a boil. <br>
+                        •	4.Add the fried Hilsa pieces. Split the the green chillies into two or cut them into half and add to the curry. <br>
+                        •	5.Cook for 2 mins. <br>
+                        •	6.Hilsa curry is ready. Serve with steamed rice. <br>
+                        
+   
+                   </p>
+               </details>
+               <br>
+
+               
+               <details class="dishdetail">             
+                <summary class="dishhead">3. Mutton Biryani</summary><br>
+                <img src="https://artofpalate.com/wp-content/uploads/2020/06/mutton-biryani.jpg" alt="Mutton Biryani" height="520" width="420">
+                     <p class="para">
+
+                        •	Marinate the mutton: <br><br>
+•	1.To the mutton add the beaten curd, ginger-garlic paste, raw papaya paste, chilli powder, salt, lemon juice, garam masala.<br>
+•	2.Allow the mutton to marinate for 3 hours.<br><br>
+
+•	Prepare fried onions or Barista:<br><br>
+•	1.Slice 2 onions very thinly. Separate the slices.<br>
+•	2.In a pan or kadai add oil and fry the onion slices till nicely brown.<br>
+•	3.Take care not to burn them. Fry in small batches. Do not put all the slices at a time, that will lead to lumpy messy onions.<br>
+•	4.Make sure all the onion slices frying are dipped in oil, if needed add more oil. Keep stirring continuously but gently for an even brown color.<br>
+•	5.Take the fried onions out with a slotted spoon or ladle.<br>
+•	6.Keep them on a paper-towel lined plate. This crispy brown fried onion slices are called Barista.<br><br>
+
+•	Cook the mutton:<br><br>
+•	1.Heat ghee in a thick-bottomed pan.<br>
+•	2.Add remaining sliced onions and green chillies. Cook, stirring continuously, till onions are light golden brown.<br>
+•	3.Add ginger paste and garlic paste and mix well.<br>
+•	4.Add marinated mutton and cook on high heat for seven to eight minutes.<br>
+•	5.Add coriander powder, cumin powder and red chilli powder. Mix thoroughly.<br>
+•	6.Stir in three cups of water, bring it to a boil, reduce heat and cook covered till mutton is almost cooked.<br>
+•	7.Add tomatoes, salt, garam masala powder and fresh coriander leaves.<br>
+•	8.Cook for 15 minutes on medium heat, stirring occasionally. The ghee would be separated from the spices and there should not be any watery gravy to the meat. <br><br>
+
+•	Prepare the rice:<br><br>
+•	1.Use only good quality long grain Basmati rice. Soak the rice for 20 minutes in water. Wash well till the water runs clear. Drain all the water.<br>
+•	2.In a small piece of cloth take cardamom, cinnamon, cloves, javitri, jaiphal, black peppercorn, shahi jeera, star anise and tie a knot to make a bag (potli).<br>
+•	3.Bring 750 ml water to boil, add rice, bay leaf, salt and potli, cover and cook till rice is done 1/3rd.<br>
+•	4.Drain the water & remove the whole masala potli.<br><br>
+
+•	Prepare the saffron-milk:<br><br>
+•	1.Take 1/4th cup warm milk in a cup and dissolve saffron strands in the milk.<br>
+•	2.Cover and wait for 20 minutes. Add rose water and kewra essence in the milk. Mix well and cover. Keep aside.<br>
+
+•	Layer the biryani:<br><br>
+•	1.Take a large heavy bottom pan with tight fitting lid.<br>
+•	2.Add 2tbsp ghee to the pan. Melt the ghee on low heat. Turn and rotate the pan carefully so the ghee can coat the bottom and sides of the pan. Switch off the heat.<br>
+•	3.Add a layer of cooked rice, then cooked meat pieces, sprinkle saffron water, add fried onion slices and ghee.<br>
+•	4.Again add a layer of rice, then meat...go on like this till you are done. Top and bottom layer will be of rice.<br>
+•	5.Cover with chopped pudina and coriander, fried onion and slit green chillies and juice of half a lemon.<br>
+•	6.Put the lid on. Seal the pan with flour dough or aluminium foil, then put the lid. Keep the heat to lowest. And cook the Biryani in this 'Dum' process for 40 minutes.<br>
+•	7.Make sure your pan is heavy-bottomed or the rice will burn. Or you can place a flat tawa then keep the pan on that tawa.<br>
+•	8.After 40 minutes switch off the heat and let the biryani stand for another 10 minutes. Transfer to a serving bowl.<br>
+•	9.Serve with raita and salad.<br><br>
+
+   
+                   </p>
+               </details>
+               <br>
+
+               
+               <details class="dishdetail">             
+                <summary class="dishhead">4. Kosha Mangsho</summary><br>
+                <img src="https://www.playfulcooking.com/wp-content/uploads/2018/08/kosha-mangsho-01.jpg" alt="Kosha Mangsho" height="520" width="420">
+                     <p class="para">
+                        •	1.Heat oil and add cloves, cardamom and cinnamon. <br>
+•	2.Add onions and saute till soft. <br>
+•	3.Add ginger-garlic paste, chilli powder and turmeric and stir fry. <br>
+•	4.Add meat, stir fry over high heat till opaque. <br>
+•	5.Lower the heat and saute till fat separates. <br>
+•	6.Add curd, cumin and salt and saute till fat separates again. <br>
+•	7.Cover tight and cook over very low heat, till it gets cooked. <br>
+•	8.Serve hot. <br> <br>
+
+   
+                   </p>
+               </details>
+               <br>
+
+               
+
+               <details class="dishdetail">             
+                <summary class="dishhead">5. Mishti Doi</summary><br>
+                <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Sapana_Behl/Sweet_Caramelized_Yogurt.jpg" alt="Mishti Doi" height="360" width="520">
+                     <p class="para">
+                        •	1.Heat the milk in a heavy based pan and reduce it to 1/4th its quantity. <br>
+                        •	2.Heat the jaggery in a heavy saucepan and melt it down using 10 ml of water.<br>
+                        •	3.Add the jaggery to the boiling milk and stir well.<br>
+                        •	4.Cook for another 5 minutes and cool down to about 40 degree C. <br>
+                        •	5.Stir in the curd. Pour in the mixture into a terracotta or clay pot and keep in a warm place to set. Serve chilled. <br>
+                        •	6.NOTE: Make sure that the milk is not too hot when the curd is added.<br><br>
+                        
+   
+                   </p>
+               </details>
+               <br>
+
+               
+
+               <details class="dishdetail">             
+                <summary class="dishhead">6. Patishapta</summary><br>
+                <img src="https://gbc-cdn-public-media.azureedge.net/img81544.768x512.jpg" alt="Patishapta" height="360" width="520">
+                     <p class="para">
+
+                        •	Prepare the filling: <br><br>
+•	1.In a wok mix grated coconut or khoya with sugar or jaggery and place it over low flame. If making with khoya, add little milk.<br>
+•	2.Add cardamom in it.<br>
+•	3.Keep stirring the mixture till it gets sticky. Keep aside to cool. The process will take 15-20 minutes.<br><br>
+•	Prepare the patishapta:<br><br>
+•	1.Take maida, sooji and rice flour in a bowl.<br>
+•	2.Add milk. Mix it carefully not making any lumps. Keep the mixture for half an hour.<br>
+•	3.Heat the non stick pan. Put a little oil. Pour a thin layer of the mixture on it and spread it quickly with the laddle.<br>
+•	4.Put the filling lengthwise at the center of it and roll it. Wait till the colour is light brown.<br>
+•	5.Place it on the plate. Serve hot or cold.<br>
+•	6.You can pour condensed milk over it before serving.<br><br>
+
+
+   
+                   </p>
+               </details>
+               <br>
+
+               <button class="printbtn" onclick="window.print()">Print Recipes</button>
+
+               
+
+
+
+
+
+
+               <h1 class="hheading" id="healthy">HEALTHY FOODS</h1><br>
+
+               <details class="dishdetail">             
+                <summary class="dishhead">1. Chicken Omelette with Sauteed Mushrooms</summary><br>
+                <img src="https://static01.nyt.com/images/2009/12/14/health/14recipehealth_600/14recipehealth_600-articleLarge-v2.jpg" alt="Chicken Omelette with Sauteed Mushrooms" height="360" width="520">
+                     <p class="para">
+                        1.	Chicken Omelette with Sauteed Mushrooms Recipe : Omelette made with egg whites and stuffed with a yummy chicken filling. Served with some sauteed mushrooms. A high protein breakfast ! <br><br>
+                        Ingredients Of Chicken Omelette With Sauteed Mushrooms:<br><br>
+                        •	For chicken stuffing:<br><br>
+                        •	2 tsp olive oil<br>
+                        •	1/2 tsp garlic<br>
+                        •	1 tsp chopped onion<br>
+                        •	3/4 tsp chopped celery<br>
+                        •	80 gm chopped chicken<br>
+                        •	3/4 tsp green chilly<br>
+                        •	3/4 vegetable stock<br>
+                        •	2 tsp soya sauce<br><br>
+                        •	For sauteed mushrooms:<br><br>
+                        •	1 tsp butter<br>
+                        •	1 tsp garlic<br>
+                        •	1/2 cup mushroom<br>
+                        •	3/4 glass vegetable stock<br>
+                        •	1 tsp basil<br>
+                        •	Pinch of salt<br>
+                        •	Pepper powder<br><br>
+                        •	For egg white omelette:<br><br>
+                        •	1 tsp oil<br>
+                        •	3 egg whites<br><br>
+                        How to Make Chicken Omelette with Sauteed Mushrooms<br><br>
+                        •	For the chicken filling:<br><br>
+                        •	1.Saute garlic, onion and celery in olive oil.<br>
+                        •	2.Add small pieces of chicken, green chilly and pour vegetable stock for flavor and saute them all together for 10 minutes.<br>
+                        •	3.Add soya sauce and avoid using salt. Saute them all together till it gets dry.<br><br>
+                        •	For sauteed mushrooms:<br><br>
+                        •	1.Saute butter and garlic in the pan.<br>
+                        •	2.Add mushroom and vegetable stock for flavor. Saute them all together.<br>
+                        •	3.Add basil and pinch of salt for taste.<br>
+                        •	4.Add little pepper for punch and saute them all together till it gets ready to eat.<br>
+                        •	5.Presentation:<br>
+                        •	6.Pour olive oil in the pan and put the egg white in it.<br>
+                        •	7.Let it cook for sometime and then put the chicken filling on top of it and roll it from both the side.<br><br>
+                        2. Mix Veg Sizzling Platter: Who says healthy food has to be bland & boring? Nutrition and Weight loss expert Rihana shares a a recipe for mix veg platter that you can relish on even on your weight loss journey.<br>
+                         Specially curated by her for those on a weight loss path, its high in protein, moderate in healthy fats and rich in fibre. Combine that with the low carbohydrate content and it makes this a perfect option for your weight loss goals. The best part is its incredibly tasty!<br><br>
+                        
+   
+                   </p>
+               </details>
+               <br>
+
+               <details class="dishdetail">             
+                <summary class="dishhead">2. Mix Veg Sizzling Platter</summary><br>
+                <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Waagmi_Soni/Vegetable_Sizzler_Recipe_With_Potato_Tikki_Mint_Rice_and_Corn_and_Spinach_Sauce-1.jpg" alt="Mix Veg Sizzling Platter" height="360" width="520">
+                     <p class="para">
+                        2. Mix Veg Sizzling Platter: Who says healthy food has to be bland & boring? Nutrition and Weight loss expert Rihana shares a a recipe for mix veg platter that you can relish on even on your weight loss journey.<br>
+                        Specially curated by her for those on a weight loss path, its high in protein, moderate in healthy fats and rich in fibre. Combine that with the low carbohydrate content and it makes this a perfect option for your weight loss goals. The best part is its incredibly tasty!<br><br>
+                        Ingredients Of Mix Veg Sizzling Platter: <br><br>
+                        •	Tikki ingredients: <br><br>
+                        •	1 cups boiled pees<br>
+                        •	1 cups blanche spinach (finely chopped)<br>
+                        •	4 chilies, chopped<br>
+                        •	1 onion , finely chopped<br>
+                        •	1 cups coriander leaves, finely chopped<br>
+                        •	4 tbsp khuskhus<br>
+                        •	4 tbsp peanut powder<br>
+                        •	1 tsp zeera powder, roasted<br>
+                        •	1 tsp dry mango powder<br>
+                        •	1 tsp red chilli powder<br>
+                        •	to taste Salt<br>
+
+                        •	Chutney Ingredients:<br><br>
+                        •	1 raw mango <br>
+                        •	1 cups fresh coconut<br>
+                        •	2 green chilies<br>
+                        •	1 piece of ginger<br>
+                        •	3 cloves of garlic<br>
+                        •	1/2 tbsp zeera powder<br>
+                        •	1 tbsp salt<br>
+                        •	Stir fry<br>
+                        •	200 gram Paneer<br>
+                        •	1 cups broccoli<br>
+                        •	3 tbsp butter<br>
+                        •	3 garlic cloves<br>
+                        •	1 small onion<br>
+                        •	1 celery stick<br>
+                        •	2 large tomatoes<br>
+                        •	1 capsicum<br>
+                        •	to taste Salt<br><br>
+                        How to Make Mix Veg Sizzling Platter<br><br>
+                        •	Tikki:<br><br>
+                        •	1.Take all ingredients in a big bowl<br>
+                        •	2.Smash with hands, knead it to make thick dough<br>
+                        •	3.Make small tikkis out of the dough<br>
+                        •	4.Stir fry in non stick pan (use ghee or olive oil)<br><br>
+                        •	Chutney<br><br>
+                        •	1.Blend all ingredients in a mixer to make a fine paste.<br>
+                        •	2.Add water as per preferred consistency and blend again<br>
+                        •	3.Chutney is ready<br><br>
+                        •	Stir Fry Paneer<br><br>
+                        •	1.Take 1 tbspn butter in a pan<br>
+                        •	2.Add paneer & all veggies and stir fry on high flame for a min till goldenish brown<br>
+                        •	3.Add salt & pepper<br><br>
+                        •	For the gravy<br><br>
+                        •	1.Take 1 tbspn butter in a pan.<br>
+                        •	2.Add chopped onions, celery, garlic & tomatoes and saute on high flame till goldenish brown.<br>
+                        •	3.Add salt (to taste) and blend everything to make a thin paste<br>
+                                                
+                    </p>
+                </details>
+                <br>
+
+                <details class="dishdetail">             
+                    <summary class="dishhead">3. Oats Mango Smoothie</summary><br>
+                    <img src="https://thedessertedgirl.com/wp-content/uploads/2019/04/MangoBananaSmoothie3.jpg" alt="Oats Mango Smoothie" height="520" width="380">
+                         <p class="para">
+                            3.	About Oats Mango Smoothie: Smoothies are a popular pick during the summer season. <br>
+                            They are wholesome, delicious and refreshing. And so are mangoes! Here is a stellar smoothie recipe with the goodness of mangoes and wholesome oats. <br>
+                            
+                            Ingredients Of Oats Mango Smoothie:<br><br>
+•	2 Alphonso mango<br>
+•	15 gms oats<br>
+•	110 ml milk<br>
+•	30 gms sugar or honey<br>
+•	160 ml yogurt<br>
+•	5 Almonds<br>
+How to Make Oats Mango Smoothie:<br><br>
+•	1.Peel the mangoes, cut it into slices, and keep it aside.<br>
+•	2.Heat a saucepan with milk, add Oats, and cook for a few minute. Switch off the gas then add sugar or honey and stir well. Let it cool down completely.<br>
+•	3.Ground the Almonds coarsely in the blender.<br>
+•	4.Now blend the mangoes, Oats, Almond, Sugar, and Yoghurt together until it becomes smooth.<br>
+•	5.Put in the refrigerator for an hour and serve it chilled.<br><br>
+
+
+                        </p>
+                    </details>
+                    <br>
+
+                    <details class="dishdetail">             
+                        <summary class="dishhead">4. Superfood Salad</summary><br>
+                        <img src="http://tohercore.com/wp-content/uploads/2013/10/IMG_0793.jpg" alt="Superfood Salad" height="360" width="520">
+                             <p class="para">
+                                4.	About Superfood Salad Recipe: For those looking to strengthen their immune system, this gluten-free and vegan salad is an immunity quick-fix. <br>
+                                 It is packed with delicious superfoods like chickpeas, kale, and blueberries that are rich in nutrients like vitamin A, vitamin C, calcium, iron, and antioxidants.<br>
+                                Ingredients Of Superfood Salad:<br><br>
+                                •	1 Bunch raw kale leaves<br>
+                                •	1 cup canned chickpeas, boiled<br>
+                                •	1 cup strawberries, sliced<br>
+                                •	1/2 cup onion, chopped<br>
+                                •	1 cup blueberries<br>
+                                •	1/4 cup sunflower seeds (or seeds of your choice)<br><br>
+                                •	For chia balsamic dressing:<br><br>
+                                •	1/3 cups water<br>
+                                •	3 tbsp balsamic vinegar<br>
+                                •	1 Garlic clove(finely minced)<br>
+                                •	1 tbsp chia seeds<br>
+                                •	1/4 tsp table salt<br><br>
+                                How to Make Superfood Salad:<br><br>
+                                •	1.First, prepare the salad dressing by tossing all the ingredients in a mixing bowl. Whisk all the ingredients together by hand using a spoon for a thinner consistency. Alternatively, pulse all ingredients in a blender for a thicker texture.<br>
+                                •	2.Keep the dressing mixture aside and it will naturally thicken as the chia seeds absorb water and swell up.<br>
+                                •	3.Wash, massage, and tear up the kale by hand into bite-sized pieces. Drain the boiled or canned chickpeas and add them to the bowl of shrunken and softened kale. Add onion, strawberries, and blueberries to the mix.<br>
+                                •	4.Toss the dressing into the salad mixture, and evenly coat all the ingredients. Sprinkle sunflower seeds over top.<br><br>
+                                
+                                
+
+                            </p>
+                        </details>
+                        <br>
+
+                        <button class="printbtn" onclick="window.print()">Print Recipes</button>
+    
+ 
+   
+
+
+
+
+
+
+
+                            
+                 
+         </div>
+        <!--- <div class="footer">
+        <p>content here</p>
+        </div>-->
+     
+    
+</body>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* for styling navigation baar
+        form HERE*/
+       * { margin: 0;
+           padding: 0;
+           font-family:Verdana;
+        
+       }
+        .bgimg{
+
+            
+            
+        }
+        #navigation {
+            position: absolute;
+             margin: 0px;
+             width: 100%;
+             height: 100vh;
+             background-image: url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+             background-size: cover;
+             
+
+        }
+        nav{
+            
+            width: 100%;
+            height: 80px;
+          /*  background: ; */
+            line-height: 70px;
+        }
+            
+
+        nav ul{
+            float: left;
+            margin-left: 30px;
+        }
+        nav ul li {
+            margin-top: 5px;
+            border: solid 2px white;
+            border-radius: 24px;
+            list-style-type:none;
+            display: inline-block;
+            transition: 0.8s all;
+            
+        } 
+        nav ul li:hover{
+            background-color: orange;
+            color: black;
+            border-color: black;
+        }
+        nav ul li a {
+
+            text-decoration: none;
+            color:orange;
+            padding: 30px;
+        }
+        nav ul li a:hover{
+            color: black;
+        }
+
+       /* .current{
+            background-color: orange;
+            border: solid 2px white;
+            border-radius: 24px;
+            color: black;
+        
+
+        }
+
+        
+        /*to HERE*/
+        </style>
+
+<body>
+    
+       <div class="bgimg">   
+           <!--navigation baar-->
+       <div  id="navigation" class="navigation">
+        <nav >
+            <ul>
+         <li>   <a href="food-home.html">HOME</a>  </li>
+         <li>   <a  href="recipes.html">Recipes</a> </li>
+         <li>   <a class="current" href="#videos">Videos</a>    </li> 
+         <li>   <a href="contact.html">Contact</a>  </li>
+         <li>   <a href="about.html">About</a>  </li>   
+            </ul>
+        </nav>
+
+
+        </div>
+      </div>
+</body>

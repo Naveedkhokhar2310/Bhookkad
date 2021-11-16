@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* for styling navigation baar
+        form HERE*/
+        *{
+            font-family: Verdana;
+            
+        }
+        .bkimg{
+            background-image:url("https://images.unsplash.com/photo-1603344204980-4edb0ea63148?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80") ;
+            background-position: center;
+            position:absolute;
+            background-size: cover;
+        }
+        .navigation {
+            height:100%;
+            width:0;
+            position:fixed;
+            z-index: 1;
+            top:0;
+            left:0;
+            background-color:black;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition:0s;
+
+        }
+        .navigation a{
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+           
+            font-size: 25px;
+            color:#49EAF4 ;
+            display: block;
+            transition: 0.3s;
+        }
+        .navigation a:hover{
+            color:#277C82;
+        }
+        .navigation .closebtn{
+            position: absolute;
+            top: 0;
+            right: 25;
+            font-size: 36px;
+            margin-left: 50px;
+        } 
+        #margin{
+            transition: margin-left .5s;
+            padding: 20px;
+        }
+        /*to HERE*/
+        /* STYLING FORM */
+        .labels{
+        
+
+        }
+        .inputs{
+            margin-top: 2px;
+            border: solid 0px #49EAF4;
+
+        }
+        .formdiv{
+            background-color: black;
+            color: #49EAF4;
+            margin: 120px 500px;
+            align: center;
+            border: solid 4px #49EAF4;
+        }
+        input[type=text],input[type=email],input[type=password],input[type=number]{
+            border: solid 3px #49EAF4;
+            border-radius: 6px;
+            background-color:#49EAF4;
+            color: black;
+        } 
+        #submitbtn{
+            text-align: center;
+            padding: 2px;
+            border-radius: 16px;
+            border:solid 3px #49EAF4;
+            background-color: black;
+            color: #49EAF4;
+            margin: 10px 2px;
+            width: 100px;
+            height: 36px;
+            font-size: 16px ;
+        }
+        #submitbtn:hover{
+           /* color: #277C82;*/
+        }
+
+
+
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART</title>
+</head>
+<body>
+    <div class="bkimg">
+    <div  id="sidenavigation" class="navigation">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="# ">HOME</a>
+        <a href="# ">Products</a>
+        <a href="# ">Services</a>
+        <a href="# ">Contact</a>
+        <a href="# ">About</a>
+    
+        
+    </div>
+    <h3>Click on Menu</h3>
+    <!--use any element to open side navigation-->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    
+    <div id="main">
+         
+    
+    </div>
+    <!-- Sign in form -->
+
+    <div class="formdiv">
+    <form action="" method="POST" name="Sign-in Form">
+        <table align="center" cellspacing="20" cellpadding="20">
+            <tr>
+
+               <b> <td class="labels">
+                    <lable for="name">Name</lable> <br><br>
+                   <!-- Gender <br><br>-->
+                    <lable for="email">Email</lable> <br><br>
+                    <lable for="mobno">Mobile Number</lable> <br><br>
+                    <lable for="passward">Passward</lable> <br><br>
+                    <label for="confirmp">Confirm Password</label>
+                     </td></b>
+
+
+                     <td class="inputs"> <br><br><br><br>  
+                         <input type="text" id="name" placeholder="Enter Your Name" id="ip"/><br><br>
+                        <!--<input type="radio" name="gender" />Male
+                         <input type="radio" name="gender"/>Female
+                         <input type="radio" name="gender"/>Other <br><br>-->
+                         <input type="email" id="email" placeholder="xyz@mail.com" id="ip"/><br><br>
+                         <input type="number" id="mobno" placeholder="Enter Mobile No." id="ip"/><br><br>
+                         <input type="password" id="passward" placeholder="Enter Password" id="ip"/><br><br>
+                         <input type="password" id="confrimp" placeholder="Re-enter Password" id="ip" /><br><br>
+                         <input type="submit" id="submitbtn" value="Sign In"/>
+                     </td>
+            </tr>
+        </table>
+        
+
+    </form>
+    </div>
+
+
+
+    <script>
+        //navigation script
+        function openNav() {
+          document.getElementById("sidenavigation").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("sidenavigation").style.width = "0";
+        }
+        </script>
+    
+    </div>
+</body>
+</html>

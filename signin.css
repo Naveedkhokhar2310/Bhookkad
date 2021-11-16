@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.formdiv{
+
+    background-image: url();
+}
+input [type=submit] {
+
+    background-color: slateblue;
+    color: white;
+}
